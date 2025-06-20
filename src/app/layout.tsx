@@ -2,7 +2,6 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Michroma } from 'next/font/google'
 import Header from './components/Header'
-import Footer from './components/Footer'
 
 const michroma = Michroma({
   subsets: ['latin'],
