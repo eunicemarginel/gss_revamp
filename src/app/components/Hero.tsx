@@ -22,12 +22,15 @@ export default function Hero() {
                 </p>
 
                 <div className="mt-12 flex flex-wrap gap-4">
-                    <a
-                        href="#contact"
-                        className="px-5 py-3 text-base bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-300 transition"
+                    <button
+                        onClick={() => {
+                            document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+                        }}
+                        className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-300 transition"
                     >
-                        GET A QUOTE
-                    </a>
+                        Get a Quote
+                    </button>
+
                     <button
                         onClick={() => {
                             const target = document.getElementById('services')
