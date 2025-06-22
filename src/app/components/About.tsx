@@ -28,11 +28,11 @@ export default function About() {
                 </div>
 
                 {/* RIGHT: Visual */}
-                <div className="w-full h-80 md:h-[28rem] rounded-xl overflow-hidden">
+                <div className="w-full h-60 md:h-[28rem] rounded-xl overflow-hidden flex items-center justify-center bg-black">
                     <img
                         src="/logo-main.png"
                         alt="Golden Shield Operations"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                     />
                 </div>
 
