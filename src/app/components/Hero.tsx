@@ -11,8 +11,8 @@ export default function Hero() {
                 backgroundRepeat: 'no-repeat',
             }}
         >
-            <div className="relative z-10 text-left px-6 md:px-16 mx-auto">
-                <h1 className="text-4xl md:text-6xl font-bold leading-tight text-yellow-400 max-w-xs sm:max-w-md md:max-w-2xl">
+            <div className="relative z-10 text-left px-6 md:px-16">
+                <h1 className="text-3xl md:text-6xl font-bold leading-tight text-yellow-400">
                     Comprehensive <br />
                     <span className="text-white">Security Solutions</span>
                 </h1>
