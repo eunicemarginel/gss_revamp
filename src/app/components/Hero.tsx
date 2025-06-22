@@ -11,7 +11,7 @@ export default function Hero() {
                 backgroundRepeat: 'no-repeat',
             }}
         >
-            <div className="relative z-10 text-left px-6 md:px-16">
+            <div className="relative z-10 text-left px-6 md:px-16 mx-auto">
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight text-yellow-400 max-w-xs sm:max-w-md md:max-w-2xl">
                     Comprehensive <br />
                     <span className="text-white">Security Solutions</span>
@@ -28,7 +28,7 @@ export default function Hero() {
                         }}
                         className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-300 transition"
                     >
-                        Get a Quote
+                        GET QUOTE
                     </button>
 
                     <button
