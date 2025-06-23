@@ -52,8 +52,8 @@ export default function Contact() {
                             </h4>
                             <p className="text-gray-400">
                                 Golden Shield HQ<br />
-                                123 Security Lane<br />
-                                Singapore 123456
+                                20 Sin Ming Lane, #04-67<br />
+                                Midview City, Singapore 123456
                             </p>
                         </div>
 
@@ -62,19 +62,19 @@ export default function Contact() {
                                 Contact Details
                             </h4>
                             <p className="text-gray-400">
-                                📞 +65 9123 4567<br />
-                                ✉️ hello@goldenshield.com.sg
+                                📞 +65 6980 5745<br />
+                                ✉️ info@goldenshield.com.sg
                             </p>
                         </div>
 
                         <div className="flex space-x-4 pt-2">
-                            <a href="#" className="text-gray-400 hover:text-yellow-400">
+                            <a href="https://www.facebook.com/p/Golden-Shield-Security-Services-100093159111496/" className="text-gray-400 hover:text-yellow-400">
                                 FB
                             </a>
-                            <a href="#" className="text-gray-400 hover:text-yellow-400">
-                                IG
+                            <a href="https://g.co/kgs/kJs5Pbs" className="text-gray-400 hover:text-yellow-400">
+                                Google
                             </a>
-                            <a href="#" className="text-gray-400 hover:text-yellow-400">
+                            <a href="https://www.linkedin.com/company/golden-shield-security-services/posts/?feedView=all" className="text-gray-400 hover:text-yellow-400">
                                 LinkedIn
                             </a>
                         </div>
